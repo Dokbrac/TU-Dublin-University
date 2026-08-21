@@ -2,10 +2,10 @@ This repository contains my projects, assignments, labs, and coursework from my 
 
 It includes work in:
 
-Software Development (Java)
-Web Development (HTML/CSS/PHP)
-Application & Network Security
-Group Projects
-Final Year Thesis
+- Software Development (Java)
+- Web Development (HTML/CSS/PHP)
+- Application & Network Security
+- Group Projects
+- Final Year Thesis
 
 A collection of my learning, development, and progress throughout my university journey.
