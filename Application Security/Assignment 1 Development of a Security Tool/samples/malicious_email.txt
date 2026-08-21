@@ -1,0 +1,14 @@
+From: support@bankexample.com
+To: user@example.com
+Subject: Urgent - Verify Your Account
+
+Hello,
+
+We noticed unusual activity in your account. To prevent suspension please click the link below and verify your password immediately:
+
+http://banklink.example.com/verify
+
+Failure to do so may result in your account being locked.
+
+Thank you,
+Bank Example Security Team
