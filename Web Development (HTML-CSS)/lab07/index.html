@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Survey</title>
+</head>
+<body>
+	<form>
+		
+		<fieldset>
+		<legend style="font-weight:bold;font-size:45px;">Survey</legend>
+		<p>If you have a moment, we'd appreciate it if you would fill out this survey.
+		</p>
+		</fieldset>
+		
+		<fieldset>
+		<legend style="font-weight:bold;font-size:25px;">Your information:</legend>
+		<p>First Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="First Name" style="background-color:#FFFF6B"/>
+		</p>
+		<p>Last Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Last Name" style="background-color:#FFFF6B"/>
+		</p>
+		<p>Email Address <input type="text" name="Email Address" style="background-color:#FFFF6B"/>
+		</p>
+		</fieldset>
+		
+		<fieldset>
+		<legend style="font-weight:bold;font-size:25px;">How did you hear about us?:</legend>
+		<p><input type="radio" name="Search engine"/>Search engine
+		<input type="radio" name="Word of mouth"/>Word of mouth
+		<input type="radio" name="Other" checked/>Other
+		</p>
+		</fieldset>
+		
+		<fieldset>
+		<legend style="font-weight:bold;font-size:25px;">Would you like to receive announcements about new CDs and special offers?</legend>
+		<p><input type="checkbox" name="information" value="Cd" checked/>YES, I'd like to recieve information on new CDs and special offers.
+		</p>Please contact me by
+			<select name="dropdown">
+				<option value="email" selected>email</option>
+				<option value="postal">postal</option>
+				<option value="phone">phone</option>
+				<option value="Facebook">Facebook</option>
+			</select>
+		</p>
+		</fieldset>
+		
+		<p style="font-weight:bold;font-size:15px;">Comments:<br>
+			<textarea rows="5" cols="50" name="comments">Enter comments here…
+			</textarea>
+		</p>
+		
+		<p><input type="submit" name="Submit" value="Submit">
+		<input type="reset" name="reset" value="Reset">
+		</p>
+		
+	</form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+fieldset {
+	border: 3px solid #fd3400;
+	width: 500px;
+	background-color: #f2efe8;
+	clear:both;
+}
+legend {
+	border: 0;
+	background-color: #999999;
+	color: #ffffff;
+	padding: 2px 4px;
+	font-weight: bold;
+	font-size: 20px;
+}
+input {
+	color: #000;
+	background-color: #fe9a80;
+	border: 0.1em solid #999999;
+}
+label {
+	width: 120px;
+	font-weight: bold;
+	color: red;
+}
+label, input {
+	float: left;
+	display: block;
+}
+br {
+	clear:left;
+}
+#submit {
+	margin-left: 180px;
+}
+form {
+	margin-left: 100px;
+	width: 534px;
+	background-color: black;
+}

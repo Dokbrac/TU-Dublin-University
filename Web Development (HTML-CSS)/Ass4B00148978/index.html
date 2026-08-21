@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Survey</title>
+	<style>
+			@import"css/style.css";
+	</style>
+</head>
+<body>
+	<form>
+		
+		<fieldset>
+		<legend style="font-weight:bold;font-size:35px;">Survey</legend>
+		<p>If you have a moment, we'd appreciate it if you would fill out this survey.
+		</p>
+		</fieldset>
+		
+		<fieldset>
+		<legend>Your information</legend>
+		<label for="firstname">First Name:</label><input type="text" name="firstname" id="firstname" required placeholder="Enter first name"/>
+		<br>
+		<label for="lastname">Last Name:</label><input type="text" name="Last Name" id="lastname" required placeholder="Enter last name"/>
+		<br>
+		<label for="email_address">Email Address:</label></label><input type="email" name="email_address" id="email_address" required placeholder="Enter email address" autofocus />
+		<br>
+		<label for="password">Password:</label><input type="password" name="password" id="password" required placeholder="Enter password"/>
+		<br>
+		<label for="phone">Phone:</label><input type="text" name="phone" id="phone" required placeholder="Enter phone number" pattern="[+]{1}[0-9]{3}[-]{1}[0-9]{2}[-]{1}[0-9]{7}" title="+000-00-0000000" />
+		</fieldset>
+		
+		<fieldset>
+		<legend>Would you like to receive announcements about promotions and special offers?</legend>
+		<p><input type="checkbox" name="information" value="Cd" checked/>YES, I'd like to recieve information on new promotions and special offers.
+		</p>
+		</fieldset>
+		
+		<fieldset>
+		<legend>Please contact me by</legend>
+		<p>
+			<select name="dropdown">
+				<optgroup label="traditional">
+					<option value="email" selected>email</option>
+					<option value="postal">postal</option>
+					<option value="phone">phone</option>
+				</optgroup>
+				<optgroup label="social media">
+					<option value="Facebook">Facebook</option>
+					<option value="Facebook">Twitter</option>
+					<option value="Facebook">LinkedIn</option>
+				</optgroup>
+			</select>
+		</p>
+		</fieldset>
+		
+		<fieldset>
+		<legend>How did you hear about us?</legend>
+		<p><input type="radio" name="Search engine"/>Search engine<br>
+		<input type="radio" name="Word of mouth"/>Word of mouth<br>
+		<input type="radio" name="Other" checked/>Other
+		</p>
+		</fieldset>
+		
+		<fieldset>
+		<legend>Rate US (Use the slider to select)</legend>
+		<input type="range" name="range" min="1" max="5" />
+		</fieldset>
+		
+		<fieldset>
+		<legend>Comments:</legend>
+			<textarea rows="5" cols="50" name="comments">Enter comments here…
+			</textarea>
+			<p><input id="submit" type="submit" name="Submit" value="Submit">
+			<input type="reset" name="reset" value="Reset">
+			</p>
+		</fieldset>
+		
+	</form>
+</body>
+</html>
